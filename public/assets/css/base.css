@@ -657,10 +657,6 @@ br.clear {
 
 /* Narrower */
 
-#headerToggle {
-  display: none;
-}
-
 @media screen and (max-width: 960px) {
   /* Basic */
 
@@ -694,19 +690,6 @@ br.clear {
 
   #header .top {
     position: relative;
-  }
-
-  #headerToggle {
-    -moz-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-transition: -moz-transform 0.5s ease;
-    -webkit-transition: -webkit-transform 0.5s ease;
-    -ms-transition: -ms-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    display: block;
-    position: fixed;
   }
 
   body.header-visible #main {
