@@ -2535,10 +2535,12 @@ button:active,
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
+    /*
     -moz-transform: translateX(-275px);
     -webkit-transform: translateX(-275px);
     -ms-transform: translateX(-275px);
     transform: translateX(-275px);
+    */
     -moz-transition: -moz-transform 0.5s ease;
     -webkit-transition: -webkit-transform 0.5s ease;
     -ms-transition: -ms-transform 0.5s ease;
